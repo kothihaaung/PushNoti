@@ -15,7 +15,7 @@ process.env.DEBUG = process.env.DEBUG
  */
 
 var join = require('path').join
-  , pfx = join(__dirname, '../_certs/apns_uat.p12');
+  , pfx = join(__dirname, '../_certs/csb_uat.p12');
 
 /*!
  * Create a new gateway agent
